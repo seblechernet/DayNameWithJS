@@ -11,8 +11,8 @@ public class Data {
     @GeneratedValue
     private long id;
     private String inputDate;
-    private String maleName;
-    private String femaleName;
+    private String mName;
+    private String fName;
 
     public long getId() {
         return id;
@@ -30,19 +30,19 @@ public class Data {
         this.inputDate = inputDate;
     }
 
-    public String getMaleName() {
-        return maleName;
+    public String getMName() {
+        return mName;
     }
 
-    public void setMaleName(String maleName) {
-        this.maleName = maleName;
+    public void setMName(String mName) {
+        this.mName = mName;
     }
 
-    public String getFemaleName() {
-        return femaleName;
+    public String getFName() {
+        return fName;
     }
 
-    public void setFemaleName(String femaleName) {
-        this.femaleName = femaleName;
+    public void setFName(String fName) {
+        this.fName = fName;
     }
 }
